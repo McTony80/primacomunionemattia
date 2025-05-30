@@ -17,9 +17,9 @@
         }
     
     .bg {
-           /* position: fixed;
-            width: 405rem;
-            height: 720rem;*/
+            position: fixed;
+            width: 405px;
+            height: 720px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -38,6 +38,25 @@
       		left: 340px;
       		width: 30px;
     	}
+        
+        @media only screen and (min-width: 390px) and (max-width: 767px) {
+            .bg {
+                width: 390px;
+                height: 767xpx
+            }
+        }
+        @media only screen and (min-width: 390px) {
+             .bg {
+                width: 390px;
+                height: 720px;
+            }
+        }
+        @media only screen and (min-height: 844px) {
+           .bg {
+                width: 405px;
+                height: 884px;
+            }
+        }
 </style>
 </head>
 <body>
